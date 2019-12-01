@@ -11,6 +11,7 @@
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
+    overflow-x: hidden;
   }
   
   /* Sections
@@ -393,6 +394,10 @@
       color: #000;
   }
 
+  .intro{
+    margin: 5em;
+  }
+
   img{
     width: 35em;
     height: 35em;
@@ -403,6 +408,7 @@
     font-family: 'Montserrat', sans-serif;
     color: #404040;
     margin: 0; 
+    line-height: 1.5em;
   }
 
   h2{
@@ -415,6 +421,7 @@
       display: grid; 
       grid-template-columns: 50% 50%;
       margin-top: 3em;
+      margin-bottom: 2em; 
   }
 
   .induction-img{
@@ -454,7 +461,7 @@
   }
 
   .kickoff-info{
-    margin: 10em 5em;
+    margin: 5em;
   }
 
   .kickoff-img{
@@ -468,7 +475,7 @@
   }
 
   .year1-info{
-    margin: 10em 5em;
+    margin: 0em 5em 5em 5em;
   }
 
   .year1-img{
@@ -485,10 +492,11 @@
     align-items: center;
     transform: rotateZ(20deg);
     margin-left: 10em;
+    margin-top: 5em;
   }
 
   .year2-info{
-    margin: 10em 5em;
+    margin: 0em 5em 5em 5em;
   }
 
   .year3{
@@ -502,7 +510,7 @@
   }
 
   .year3-info{
-    margin: 10em 5em;
+    margin: 0em 5em 5em 5em;
   }
 
   .img-kickoff{
@@ -510,7 +518,7 @@
   }
 
   .sharktank{
-    margin: 5em;
+    margin: 0em 5em 5em 5em;
   }
 
   .sharktank-img{
@@ -522,6 +530,18 @@
   .shark-gallery{
       width: 25em;
       height: 25em;
+  }
+
+  .row{
+      display: flex; 
+      justify-content: space-between;
+      margin: 2.5em 5em;
+  }
+
+  .img-gallery{
+    width: 25em;
+    height: 25em;
+    border: .25em white dotted;
   }
 
   footer{
